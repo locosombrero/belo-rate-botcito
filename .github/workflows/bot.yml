@@ -23,4 +23,4 @@ jobs:
       - name: Ejecutar script
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
-        run: python main.py
+        run: python main_telegram.py
